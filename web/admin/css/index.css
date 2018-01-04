@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f1f1f1;
+    color: #444;
+    font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    min-width: 600px;
+}
+body div {
+    display: block;
+}
+.info{
+    float: right;
+    margin-right: 3em;
+}
+.trangchu{
+    float: left;
+    margin-left: 1em;
+}
+.top {
+    height: 6em;
+}
+#content, #footer {
+    margin-left: 160px;
+}
+
+#body-content {
+    float: left;
+    overflow: visible!important;
+}
+.wrapcontent {
+    margin: 40px 20px 0 2px;
+}
+
+.clear {
+    clear: both;
+}
+#footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #555d66;
+}
+
+#adminmenuback {
+    position: fixed;
+    top: 0;
+    bottom: -120px;
+    z-index: 1;
+}
+#adminmenuwrap {
+    position: relative;
+    float: left;
+    z-index: 9990;
+}
+#adminmenu, #adminmenuback, #adminmenuwrap {
+    width: 160px;
+    background-color: #23282d;
+    height: 100vh;
+}
+
+#adminmenu {
+    margin: 12px 0 0 0 ;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+#adminmenu li.menu-top {
+    border: none;
+    min-height: 34px;
+    position: relative;
+}
+#adminmenu li {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    padding-left: 10px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+#adminmenu li  div.menu-name:hover{
+    background-color: #191e23;
+    color:#0073aa;
+}
+#adminmenu div.menu-name {
+    padding: 8px 0;
+}
+/*.wrap{
+    margin-left: 250px;
+    margin-top: 140px;
+}*/
+.menu{
+    float: left;
+    margin:10px;
+    width: 130px;
+}
+.menu img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+/*img:hover {
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} */
+div.menu:hover {
+    border: 1px solid #777;
+}
+.menu .text {
+    padding: 5px;
+    text-align: center;
+}
+
+#pd-top{
+    padding-top: 5px;
+    font-size: 30px;
+    color: firebrick;
+}
